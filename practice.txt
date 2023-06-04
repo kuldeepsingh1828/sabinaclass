@@ -18,5 +18,39 @@ console.log(calculateAverage([1, 2, 3, 4, 5])); // Output: 3
 Feel free to give them a try! If you have any questions or need further assistance, feel free to ask.
 
 
+Question 1: Write a function doubleNumbers(arr) that takes an array arr of numbers and uses the map method to return a new array where each element is doubled.
+
+Example usage:
+
+console.log(doubleNumbers([1, 2, 3, 4, 5])); // Output: [2, 4, 6, 8, 10]
+Question 2: Write a function capitalizeNames(names) that takes an array names containing strings and uses the map method to return a new array where each name is capitalized (first letter uppercase).
+
+Example usage:
+
+console.log(capitalizeNames(['john', 'jane', 'mark', 'alice'])); 
+// Output: ['John', 'Jane', 'Mark', 'Alice']
+Question 3: Write a function extractEmails(contacts) that takes an array contacts containing objects with name and email properties. Use the map method to extract and return an array of email addresses.
+
+Example usage:
+
+const contacts = [
+  { name: 'John', email: 'john@example.com' },
+  { name: 'Jane', email: 'jane@example.com' },
+  { name: 'Mark', email: 'mark@example.com' }
+];
+console.log(extractEmails(contacts)); 
+// Output: ['john@example.com', 'jane@example.com', 'mark@example.com']
+Question 4: Write a function calculateSquareRoots(numbers) that takes an array numbers of numbers and uses the map method to return a new array where each element is the square root of the corresponding number.
+
+Example usage:
+
+console.log(calculateSquareRoots([4, 9, 16, 25])); // Output: [2, 3, 4, 5]
+Feel free to try these questions and let me know if you have any further questions or need more assistance!
+
+
+
+
+
+
 
 
