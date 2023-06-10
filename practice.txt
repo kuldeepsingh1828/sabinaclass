@@ -7,10 +7,10 @@ Question 2: Write a function sumPositiveNumbers(arr) that takes an array arr of 
 Example usage:
 console.log(sumPositiveNumbers([-1, 2, -3, 4, -5, 6])); // Output: 12
 Question 3: Write a function groupByLength(words) that takes an array words containing strings and uses the reduce method to group the words by their lengths. The function should return an object where the keys are the lengths of the words and the values are arrays containing the words of that length.
-
 Example usage:
 console.log(groupByLength(['apple', 'banana', 'pear', 'kiwi', 'grape'])); 
 // Output: { 3: ['pear'], 5: ['apple', 'kiwi', 'grape'], 6: ['banana'] }
+
 Question 4: Write a function calculateAverage(arr) that takes an array arr of numbers and uses the reduce method to calculate the average of all numbers in the array.
 
 Example usage:
@@ -23,12 +23,13 @@ Question 1: Write a function doubleNumbers(arr) that takes an array arr of numbe
 Example usage:
 
 console.log(doubleNumbers([1, 2, 3, 4, 5])); // Output: [2, 4, 6, 8, 10]
+
 Question 2: Write a function capitalizeNames(names) that takes an array names containing strings and uses the map method to return a new array where each name is capitalized (first letter uppercase).
-
 Example usage:
-
 console.log(capitalizeNames(['john', 'jane', 'mark', 'alice'])); 
 // Output: ['John', 'Jane', 'Mark', 'Alice']
+
+
 Question 3: Write a function extractEmails(contacts) that takes an array contacts containing objects with name and email properties. Use the map method to extract and return an array of email addresses.
 
 Example usage:
